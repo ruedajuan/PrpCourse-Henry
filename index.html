@@ -2,52 +2,51 @@
 <html lang="es">
     <head>
         <title>Mi pagina web</title>
+        <link rel="stylesheet"  href="./reset.css" />
+        <link rel="stylesheet"  href="./styles.css" />
     </head>
     <body>
         <header>
-            <h1>Mi pagina web</h1>
-            <p>Mi nombre es Juan.</p>
+            <div id="titulos">
+                <h1 class="title" id="principal">Mi pagina web</h1>
+                <p>Mi nombre es Juan.</p>
+            </div>
         </header>
         <main>
             <section> 
-                <article>
-            <h2> Titulo de una seccion </h2>
-            <img src="logo.jpg">
-
-            </article>
-            <article>
-            <h3>Titulo de una noticia</h3>
-            <div>             
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Nisi ullam sint molestias labore, omnis distinctio nihil sapiente animi quibusdam eaque consectetur 
-                nostrum exercitationem quisquam sit maiores! Et aliquam rerum possimus!
-                </p>
-            </div>
-
-                 </article>
-            <hr />
-                <article>
-                <h3>Titulo de una noticia 2</h3>
-                <p>Listado</p>
-                <ol>
-                    <li>Papa</li>
-                    <li>Banana</li>
-                    <li>Zapallo</li>
-                </ol>
+                <div id="contenedor-caja">
+                <article id="prueba">
+                    <h2 class="title"> Logo </h2>
+                    <img src="logo.jpg" class="logo"/> 
 
                 </article>
-                <hr />
-                <article>
-                <h3>Herramientas</h3>
-                <p>no esta ordenado</p>
-                <ul>
-                    <li>Martillo</li>
-                    <li>Destornillador</li>
-                    <li>Llave inglesa</li>
-                </ul>
-            </article>
+
+                <article id="prueba">
+                    <h3 class="title">Verduras</h3>
+                    <div >
+                        <p>Listado</p>
+                        <ol>
+                            <li>Papa</li>
+                            <li>Banana</li>
+                            <li>Zapallo</li>
+                        </ol>
+                    </div>
+                </article>
+
+                <article id="prueba">
+                    <h3 class="title">Herramientas</h3>
+                    <p>no esta ordenado</p>
+                    <ul>
+                        <li>Martillo</li>
+                        <li>Destornillador</li>
+                        <li>Llave inglesa</li>
+                    </ul>
+                </article>
+            </div>
             </section>
+
         </main>
+
         <footer>
             <p>Este es el footer de mi pagina</p>
             <a href="./contacto.html">Formulario de contacto</a>
